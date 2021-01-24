@@ -5,5 +5,6 @@ int main()
 	char str[]="hello";
 	int n=strlen(str);
 	printf("%d\n",n);
+	printf("%d",n);
 }
 
