@@ -5,7 +5,8 @@ main()
 int count; 
 for (count = 0; count < 4; count++) 
 { 
-printf("At iteration %d: ", count); 
+printf("At iteration %d: ", count);
+printf("%d", & count); 
 func1(); 
 }
  return 0; 
