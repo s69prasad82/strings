@@ -8,6 +8,7 @@ void main()
 	{
 		p[i]=a[i];
 	}
+	printf("hello world\n");
 	p[i]='\0';
 	printf("%s",p);
 }
